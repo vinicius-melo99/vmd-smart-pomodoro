@@ -19,3 +19,8 @@ body {
   background-color: var(--gray-900);
   color: var(--text-default);
 }
+
+.container-fluid {
+  width: 100%;
+  /* background-color: purple; */
+}
