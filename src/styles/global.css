@@ -20,7 +20,18 @@ body {
   color: var(--text-default);
 }
 
-.container-fluid {
-  width: 100%;
-  /* background-color: purple; */
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.formRow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
 }

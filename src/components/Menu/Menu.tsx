@@ -6,26 +6,27 @@ import {
   SunIcon,
 } from 'lucide-react';
 import styles from './styles.module.css';
+import { MenuLink } from '../MenuLink';
 
 export const Menu = () => {
   return (
     <nav className={styles.menu}>
-      <a className={styles.menuLink}>
+      <MenuLink>
         <HouseIcon />
-      </a>
+      </MenuLink>
 
-      <a className={styles.menuLink}>
+      <MenuLink>
         <HistoryIcon />
-      </a>
+      </MenuLink>
 
-      <a className={styles.menuLink}>
+      <MenuLink>
         <SettingsIcon />
-      </a>
+      </MenuLink>
 
-      <a className={styles.menuLink}>
+      <MenuLink>
         <SunIcon />
         {/* <MoonIcon /> */}
-      </a>
+      </MenuLink>
     </nav>
   );
 };

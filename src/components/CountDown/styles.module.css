@@ -1,0 +1,8 @@
+.countDown {
+  display: flex;
+  justify-content: center;
+  font-family: 'Digital';
+  font-size: clamp(8rem, 30vw, 16rem);
+  width: 100%;
+  line-height: 1.45;
+  }

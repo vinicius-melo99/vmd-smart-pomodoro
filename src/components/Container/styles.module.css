@@ -1,3 +1,8 @@
+.container-fluid {
+  width: 100%;
+  /* background-color: purple; */
+}
+
 .container {
   max-width: 100.24rem;
   margin: 0 auto;
