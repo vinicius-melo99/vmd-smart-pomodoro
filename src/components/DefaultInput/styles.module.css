@@ -1,5 +1,6 @@
 .defaultInput {
   background-color: transparent;
+  width: 100%;
   outline: none ;
   border: 0.2rem solid transparent;
   border-bottom: 0.2rem solid var(--primary);
