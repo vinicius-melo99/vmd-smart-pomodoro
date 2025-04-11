@@ -11,7 +11,7 @@
 .copyText{
   font-size: 1.2rem;
   text-decoration: none;
-  color: var(--text-over-primary-dark);
+  color: var(--text-default);
 }
 
 .highlightLink {

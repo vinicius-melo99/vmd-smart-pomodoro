@@ -5,6 +5,7 @@
   background-color: var(--primary);
   transition: filter 200ms ease-in-out;
   border-radius: 0.8rem;
+  position: relative;
 }
 
 .menuLink:hover {
@@ -17,4 +18,15 @@
   height: 2.4rem;
   cursor: pointer;
   color: var(--text-over-primary);
+  animation: theme-icon 0.3s linear;
+}
+
+@keyframes theme-icon {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
